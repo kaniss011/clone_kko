@@ -85,8 +85,31 @@
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-copy .layout .left {
 }
+.copy {
+  color: #666666;
+}
+
 .footer-copy .layout .right {
+}
+.sns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.insta {
+  color: #666666;
+}
+.youtube {
+  color: #666666;
+}
+.github {
+  color: #666666;
+}
+.facebook {
+  color: #666666;
 }

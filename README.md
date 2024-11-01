@@ -190,3 +190,37 @@ body {
 - display:inline-block
 - 기본너비는 지정하지 않으면 내용물 만큼 소비
 - 가로로 연속 배치가 가능하다.
+
+## 4. CSS 정리
+
+- VSCode : PostCSS Sorting 설치
+
+```
+정렬 속성 셋팅
+관리 도구 > 설정 메뉴 > setting.json 검색 > 파란색 글자 seeting.jso 찾아서 클릭
+```
+
+- 다음 항목을 추가한다. (쉼표!!! 꼭 넣어주자)
+
+```json
+"postcssSorting.config": {
+  "properties-order": ["display", "list-style", "position", "top", "right", "bottom", "left", "float", "clear", "width", "height", "padding", "margin", "border", "background", "color", "font", "font-weight", "font-size", "line-height", "font-family", "letter-spacing", "text-decoration", "text-align", "verticla-align", "white-space", "content", "animation"]
+}
+```
+
+- 키 보드 단축키 셋팅하기
+
+```
+ 관리 도구 > 바로 가기 키  > 클릭 > post 검색 > 중복 안된키 조합
+ Ctrl + Alt + C 로 설정
+```
+
+## 5. CSS 표준검사
+
+- https://jigsaw.w3.org/css-validator
+- https://caniuse.com
+
+## 6. html 표준검사
+
+- https://validator.w3.org
+- https://caniuse.com
